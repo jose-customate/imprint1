@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Connect Your Backend - Customate</title> 
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link rel="icon" type="image/png" href="https://github.com/jose-customate/email_signature_logo/blob/main/0803cm.png?raw=true">
+    <meta name="description" content="Customate helps businesses integrate their backend systems with our AI-powered customer service solution. Connect with Salesforce, Zendesk, Shopify and more.">
+  </head>
+  <body>
+    <!-- Top thin black banner with Language Dropdown -->
+    <div class="top-banner">
+      <div class="language-dropdown">
+        <button class="language-button">
+          <i class="fas fa-globe"></i> English <i class="fas fa-chevron-down"></i>
+        </button>
+        <div class="dropdown-content">
+          <a href="#" class="active"><i class="fas fa-check"></i> English</a>
+          <a href="#">Español</a>
+          <a href="#">Deutsch</a>
+          <a href="#">Italiano</a>
+          <a href="#">हिंदी</a>
+          <a href="#">Norsk</a>
+          <a href="#">Hrvatski</a>
+        </div>
+      </div>
+    </div>
+    
+    <!-- Main navigation -->
+    <header class="header">
+      <div class="container-fluid">
+        <nav class="navbar">
+          <div class="navbar-brand">
+            <a href="https://www.customate.ai">
+              <img src="https://github.com/jose-customate/email_signature_logo/blob/main/0803cm.png?raw=true" alt="Customate" class="logo" />
+            </a>
+          </div>
+          
+          <div class="navbar-menu">
+            <div class="navbar-start">
+              <div class="navbar-item has-dropdown">
+                <a class="navbar-link">
+                  <span>Integrations</span>
+                  <i class="fas fa-chevron-down"></i>
+                </a>
+                <div class="navbar-dropdown">
+                  <a href="https://www.customate.ai/integratebackend" class="dropdown-item">
+                    <i class="dropdown-icon backend-icon"></i>
+                    Backend
+                  </a>
+                  <a href="https://www.customate.ai/integratechannels" class="dropdown-item">
+                    <i class="dropdown-icon channels-icon"></i>
+                    Channels
+                  </a>
+                </div>
+              </div>
+              
+              <a href="https://www.customate.ai/pricing" class="navbar-item">Pricing</a>
+              <a href="https://www.customate.ai/blog" class="navbar-item">Blog</a>
+            </div>
+            
+            <div class="navbar-end">
+              <a href="#" class="navbar-item btn-login">Log In</a>
+              <a href="#" class="navbar-item btn-primary">Sign Up</a>
+            </div>
+          </div>
+          
+          <div class="navbar-burger">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+        </nav>
+      </div>
+    </header>
+
+<main>
+  <section class="terms-content">
+    <h1>Imprint</h1>
+    
+    <h2> Company Information </h2>
+    
+    <p><strong>Full Legal Name of the Company:</strong> Customated SSA UG</p>
+    
+    <p><strong>Legal Form:</strong> Unternehmergesellschaft (haftungsbeschränkt) </p>
+    
+    <p><strong>Registered Address:</strong> August-Bebel-Str. 89 – Haus 7, 14482 Potsdam.</p>
+    
+    <p><strong>Contact Email Address:</strong> admin ( a,ϯ ) customate.ai </p>
+    
+    <p><strong>Website URL:</strong> www.customate.ai </p>
+    
+    <h2>Trade Register Entry (Handelsregister)</h2>
+    
+    <p><strong>Registration Number & Court of Registration:</strong> [Insert Registration Number and Court]</p>
+    
+    <p><strong>VAT Identification Number (Umsatzsteuer-ID):</strong> [Insert VAT ID]</p>
+    
+    <p><strong>Legal Representative:</strong> José Orias, Unternehmensleiter </p>
+    
+    <h2>Legal Terms</h2>
+    
+    <p>The Terms and Conditions (T&C) of the service provider apply to all interactions with the website and its services. Users are encouraged to review the T&C for detailed information on rights, responsibilities, and limitations.</p>
+  </section>
+</main>
+
+  </body>
+</html>
